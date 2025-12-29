@@ -1,0 +1,12 @@
+.headings {
+    color: lightgreen;
+    font-family: cursive;
+    background-color: black;
+}
+ul {
+    em {font-family: sans-serif;
+    }
+}
+h4 > p {
+    color: #0fe30c;
+}
