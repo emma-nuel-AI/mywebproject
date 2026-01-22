@@ -62,6 +62,24 @@
             border: 1px solid;
             border-color: #009900;
         }
+        .scroll {
+            display: block;
+            border: 1px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 300px;
+            height: 50px;
+            overflow: scroll;
+        }
+        .auto {
+            display: block;
+            border: 1px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 300px;
+            height: 50px;
+            overflow: auto;
+        }
     </style>
 </head> 
 
@@ -400,6 +418,19 @@
         This paragraph is 400px wide and min hight is 200px
     </p>
     <img alt="logo" src="logo.png" width="95" height="84"/>
+    <p>Example of scroll value:</p>
+    <div class="scroll">
+        I am going to keep a lot of content here just to show you how
+        scrollbars work if there is an overflow in an element box.
+        This provides your horizontal as wll as vertical scrollbars.
+    </div>
+    <br/>
+    <p>Example of auto value:</p>
+    <div class="auto">
+        I am going to keep a lot of content here just to show you how
+        scrollbars work if there is an overflow in an element box.
+        This provides your horizontal as wll as vertical scrollbars.
+    </div>
     <p><b>To understand this example, you should open this page on a phone or a tablet.</b></p>
     <img src="Crystal Palace.png" alt="image" width="460" height="345">
     <p>
